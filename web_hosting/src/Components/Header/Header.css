@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  /* background: linear-gradient(#2e31ff, #9198e5); */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 52, 92, 1) 76%,
+    rgba(32, 60, 92, 1) 100%
+  );
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.navbar li {
+  padding-right: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  list-style: none;
+}
+.navbar li:first-child a {
+  position: absolute;
+  color: green;
+  justify-content: start;
+  align-items: flex-start;
+}
