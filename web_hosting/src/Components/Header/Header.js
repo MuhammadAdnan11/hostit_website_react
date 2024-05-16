@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Header.css";
 const Header = () => {
   return (
@@ -13,6 +14,13 @@ const Header = () => {
           <li>Services</li>
           <li>Pricing</li>
           <li>Contact Us</li>
+          <li>
+            <i className="fa-solid fa-magnifying-glass "></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"> </i>
+            CALL:+923169727859
+          </li>
         </ul>
       </div>
     </>
