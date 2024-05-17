@@ -7,7 +7,11 @@ const Banner = () => {
         <div className="container">
           <div className="row header_banner ">
             <div className="col-md-5 header_text">
-              <h1>Fast & Secure Web Hosting</h1>
+              <h1>
+                Fast & Secure
+                <br /> Web Hosting
+              </h1>
+              <br />
               <p>
                 Anything embarrassing hidden in the middle of text. All the
                 Lorem <br />

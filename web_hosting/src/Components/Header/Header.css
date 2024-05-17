@@ -24,11 +24,25 @@
 }
 .navbar li {
   padding-right: 3rem;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   list-style: none;
   color: white;
   cursor: pointer;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  /* background: #f44336; */
+  background: #03a7d3;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
 }
 .navbar li:first-child a {
   position: absolute;

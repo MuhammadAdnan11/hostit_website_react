@@ -19,7 +19,7 @@ const Header = () => {
           </li>
           <li>
             <i class="fa-solid fa-phone"> </i>
-            CALL:+923169727859
+            CALL :+923169727859
           </li>
         </ul>
       </div>
