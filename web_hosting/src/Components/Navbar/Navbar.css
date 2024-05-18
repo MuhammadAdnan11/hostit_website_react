@@ -1,0 +1,26 @@
+.main-navbar ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-navbar ul li {
+  margin: 20px 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-row {
+  height: 5rem;
+}
+.main-navbar ul li:first-child a {
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 30px;
+  margin: 20px 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
