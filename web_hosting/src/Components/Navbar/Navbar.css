@@ -8,7 +8,38 @@
   margin: 20px 0 20px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
 }
+.main-navbar ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.main-navbar ul li:hover::after {
+  width: 100%;
+}
+/* Logo hover starts */
+.main-navbar ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.main-navbar ul li a:hover::after {
+  width: 100%;
+}
+
+/* Logo hover ends here  */
 .nav-row {
   height: 5rem;
   background: linear-gradient(

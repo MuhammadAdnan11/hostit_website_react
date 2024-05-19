@@ -10,7 +10,9 @@ const Navbar = () => {
               <li>
                 <a href="#">Hostit</a>
               </li>
+
               <li>Home</li>
+
               <li>About</li>
               <li>Services</li>
               <li>Pricing</li>
