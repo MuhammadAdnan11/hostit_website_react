@@ -13,14 +13,66 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-4">
-            <ServicesCard />
+
+      {/* cards  */}
+      <div className="container mb-4">
+        <div className="row text-center justify-content-space-between mb-4">
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s1.png"
+              title="Shared Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
+          </div>
+
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s2.png"
+              title="Dedicated Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
+          </div>
+
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s3.png"
+              title="Cloud Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
           </div>
         </div>
 
-        <ServicesCard />
+        <div className="row text-center justify-content-space-between mb-4">
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s1.png"
+              title="Shared Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
+          </div>
+
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s2.png"
+              title="Dedicated Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
+          </div>
+
+          <div className="col-md-4 ">
+            <ServicesCard
+              image="./images/s3.png"
+              title="Cloud Hosting"
+              details="Generators on the Internet tend to repeat predefined chunks as
+            necessary"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
