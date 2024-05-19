@@ -1,0 +1,66 @@
+#dollor-icon {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.Pricing-card {
+  /* border: 1px solid red; */
+  background: #fff;
+  box-shadow: 0px 0px 25px rgb(182, 182, 182);
+  border-radius: 30px;
+  height: 340px;
+  display: block;
+  align-content: center;
+}
+/* .Pricing-card:hover {
+  background-color: #03a7d3;
+  color: #fff;
+  
+} */
+.combined-pricingCard:hover {
+  & .Pricing-card {
+    background-color: #03a7d3;
+    color: #fff;
+  }
+  & h5 {
+    color: #fff;
+  }
+}
+
+.combined-pricingCard:hover {
+  & .btn-Pricing {
+    background-color: #03a7d3;
+  }
+}
+
+.Pricing-header h5 {
+  color: rgb(240, 70, 70);
+}
+.detail-section {
+  font-size: 15px;
+  font-weight: 600;
+}
+.combined-pricingCard button:hover {
+  background: #03a7d3;
+}
+
+.btn-Pricing {
+  background: rgb(240, 70, 70);
+  color: #fff;
+  height: 44px;
+  width: 135px;
+  border-radius: 6px;
+  border-style: none;
+  outline-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/* main Card  */
+.mainCard-pricing {
+  padding: 10px 45px 10px;
+}

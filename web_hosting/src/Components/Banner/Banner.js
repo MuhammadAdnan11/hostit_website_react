@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="container-fluid banner-container">
         <div className="container">
           <div className="row ">
-            <div className="col-md-6 text-white  mt-5 pt-5 ">
+            <div className="col-md-6 text-white  mt-5 pt-5 main-banner">
               <h2 className="mt-5 pt-3">
                 Fast & Secure <br />
                 Web Hosting

@@ -1,0 +1,38 @@
+.server-section {
+  background: linear-gradient(110deg, transparent 25%, #020230 25%);
+}
+.img-server {
+  background-color: #fff;
+}
+.img-server img {
+  height: 350px;
+  width: 600px;
+  padding: 0px 20px 0;
+}
+
+/* Button  */
+
+.server-section button {
+  background-color: rgb(240, 70, 70);
+  color: white;
+  height: 45px;
+  width: 10rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.server-section button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 52, 92, 1) 76%,
+    rgba(32, 60, 92, 1) 100%
+  );
+  border: 1px solid rgb(240, 70, 70);
+  outline: 1px solid rgb(240, 70, 70);
+  color: rgb(240, 70, 70);
+}

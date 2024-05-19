@@ -1,17 +1,9 @@
-h2::before {
+.main-banner h2::before {
   content: "";
   width: 0px;
   transition: 0.5s;
-  -webkit-transform: ;
-  -moz-transform: ;
-  -ms-transform: ;
-  -o-transform: ;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
 }
-h2:hover::after {
+.main-banner h2:hover::after {
   content: "   🔐🛅";
   font-size: 20px;
   padding-left: 10px;

@@ -1,0 +1,45 @@
+/* Button Start  */
+.about-txt button:hover {
+  background-color: #f8f9fa;
+  border: 1px solid rgb(240, 70, 70);
+  outline: 1px solid rgb(240, 70, 70);
+  color: rgb(240, 70, 70);
+}
+
+.about-txt button {
+  background-color: rgb(240, 70, 70);
+  color: white;
+  height: 45px;
+  width: 10rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Button End  */
+
+.about-txt {
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+.about-txt p {
+  color: #999;
+  padding-top: 10px;
+}
+.about-txt h3 {
+  font-weight: 700;
+}
+.about-img img {
+  margin: 20px auto 0;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  width: 520px;
+  padding-top: 20px;
+}

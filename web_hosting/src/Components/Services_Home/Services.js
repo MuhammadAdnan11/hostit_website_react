@@ -4,7 +4,7 @@ import "./Services.css";
 const Services = () => {
   return (
     <>
-      <div className="container-fluid mt-4 ">
+      <div className="container-fluid mt-4 mainCard-container">
         <div className="row">
           <div className="col-md-12">
             <div className=" container-service text-center my-5">
@@ -15,7 +15,7 @@ const Services = () => {
       </div>
 
       {/* cards  */}
-      <div className="container mb-4">
+      <div className="container mb-5 card-container">
         <div className="row text-center justify-content-space-between mb-4">
           <div className="col-md-4 ">
             <ServicesCard
@@ -45,7 +45,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="row text-center justify-content-space-between mb-4">
+        <div className="row text-center justify-content-space-between mb-5">
           <div className="col-md-4 ">
             <ServicesCard
               image="./images/s1.png"
