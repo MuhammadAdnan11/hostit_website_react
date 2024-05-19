@@ -31,7 +31,9 @@ const Pricing_Card = (props) => {
             </ul>
           </div>
         </div>
-        <button className="btn-Pricing mt-3">See Detail</button>
+        <button className="btn-Pricing mt-3 text-center me-4">
+          See Detail
+        </button>
       </div>
     </>
   );

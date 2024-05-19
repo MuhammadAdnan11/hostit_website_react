@@ -25,8 +25,8 @@ const Pricing = () => {
           </div>
           <div className="col-md-4  mainCard-pricing">
             <Pricing_Card
-              title="STARTUP"
-              price="49"
+              title="BUSINESS"
+              price="149"
               li1="2GB RAM"
               li2="combined-pricingCard"
               li3="Weekly Backups"
@@ -37,8 +37,8 @@ const Pricing = () => {
           </div>
           <div className="col-md-4  mainCard-pricing">
             <Pricing_Card
-              title="STARTUP"
-              price="49"
+              title="STANDARD"
+              price="68"
               li1="2GB RAM"
               li2="combined-pricingCard"
               li3="Weekly Backups"

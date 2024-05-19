@@ -1,0 +1,18 @@
+#form-button {
+  background: rgb(240, 70, 70);
+  color: #fff;
+  height: 44px;
+  width: 135px;
+  border-radius: 6px;
+  border-style: none;
+  outline-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+#form-button:hover {
+  background: #03a7d3;
+}
