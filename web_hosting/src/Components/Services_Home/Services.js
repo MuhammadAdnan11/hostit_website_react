@@ -8,7 +8,7 @@ const Services = () => {
         <div className="row">
           <div className="col-md-12">
             <div className=" container-service text-center my-5">
-              <h3>Our Services</h3>
+              <h3 className="fw-bold">Our Services</h3>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="row text-center justify-content-space-between mb-5">
+        <div className="row text-center justify-content-space-between ">
           <div className="col-md-4 ">
             <ServicesCard
               image="./images/s1.png"

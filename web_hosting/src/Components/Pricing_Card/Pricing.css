@@ -2,13 +2,16 @@
   font-size: 27px;
   font-weight: 700;
 }
-
+.Pricing-header h1 {
+  font-weight: 700;
+}
 .Pricing-card {
   /* border: 1px solid red; */
   background: #fff;
   box-shadow: 0px 0px 25px rgb(182, 182, 182);
   border-radius: 30px;
   height: 340px;
+  width: 280px;
   display: block;
   align-content: center;
 }
@@ -61,6 +64,3 @@
 }
 
 /* main Card  */
-.mainCard-pricing {
-  padding: 10px 45px 10px;
-}
